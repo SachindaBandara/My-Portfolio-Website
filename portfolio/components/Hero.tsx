@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          <h2 className="lowercase tracking-widest text-sm text-center text-blue-100 max-w-80">
            @Sachinda Bandara
           </h2>
           <TextGenerateEffect
@@ -28,7 +28,7 @@ const Hero = () => {
             words="Transforming Concepts into Seamless Experiences"
           />
 
-          <p className="text-center md:tracking-wider mt-4 md-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mt-4 mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I'm Sachinda Bandara, Frontend Developer & UI / UX Engineer
           </p>
 

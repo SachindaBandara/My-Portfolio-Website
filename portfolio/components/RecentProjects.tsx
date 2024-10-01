@@ -6,12 +6,12 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-40" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        My{" "}
+        <span className="text-purple">Recent Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 md:gap-x-24 md:gap-y-8">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
@@ -24,11 +24,11 @@ const RecentProjects = () => {
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0" />
               </div>
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-2">
                 {title}
               </h1>
 
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+              <p className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2">
                 {des}
               </p>
 
