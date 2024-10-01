@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 //import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import ContactButton from "./ui/ContactButton";
 
 const Hero = () => {
   return (
@@ -39,6 +40,15 @@ const Hero = () => {
               position="right"
             />
           </a>
+
+          {/* <a href="#about">
+            <ContactButton
+              title="Contact Me"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a> */}
+
         </div>
       </div>
     </div>

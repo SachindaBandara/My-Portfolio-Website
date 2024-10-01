@@ -30,13 +30,15 @@ const Footer = () => {
 
       <div className="flex flex-col mt-1 sm:-mt-10 md:flex-row justify-between items-center">
         <p className="text-xs md:text-sm md:font-normal font-ligh mt-20 z-10">
-          Copyright © 2024 Sachinda Bandara
+        Copyright © 2024 All Rights Reserved
         </p>
 
         <div className="flex items-center -mt-20 gap-6 md:gap-3 sm:mt-20">
             {socialMedia.map((profile) => (
                 <div key={profile.id} className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+                    <a href={profile.link}>
                     <img src={profile.img} alt={profile.img} width={20} height={20} />
+                    </a>
                 </div>
             ))}
         </div>
