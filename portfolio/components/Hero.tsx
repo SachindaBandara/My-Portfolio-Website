@@ -1,9 +1,14 @@
+'use client'
+
 import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 //import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import ContactButton from "./ui/ContactButton";
 import { BsArrowRight } from "react-icons/bs";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import Profile from "../public/profile pic.jpg"
 
 const Hero = () => {
   return (
@@ -20,7 +25,30 @@ const Hero = () => {
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div> */}
 
-      <div className="flex justify-center relative my-20 z-10">
+<div className="flex items-center justify-center">
+        <div className="relative">
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              type: "tween",
+              duration: 0.2,
+            }}
+          >
+            <Image
+              src={Profile}
+              alt="Sachinda Bandara"
+              width="210"
+              height="210"
+              quality="95"
+              priority={true}
+              className="h-40 w-40 rounded-full object-cover"
+            />
+          </motion.div>
+        </div>
+      </div>
+
+      <div className="flex justify-center relative my-5 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="lowercase tracking-widest text-sm text-center text-blue-100 max-w-80">
            @Sachinda Bandara
