@@ -3,6 +3,7 @@ import MagicButton from "./ui/MagicButton";
 //import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import ContactButton from "./ui/ContactButton";
+import { BsArrowRight } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -26,17 +27,21 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless Experiences"
+            words=" Hi, I'm Sachinda Bandara"
           />
 
           <p className="text-center md:tracking-wider mt-4 mb-10 sm:mb-2 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Sachinda Bandara, Frontend Developer & UI / UX Engineer
+           Frontend Developer & UI / UX Engineer
           </p>
 
-          <a href="#about">
+          <p className="text-center md:tracking-wider mt-4 mb-10 sm:mb-2 text-xs md:text-sm lg:text-base text-slate-400">
+          I'm passionate about building exceptional user experiences by weaving together the power of frontend development.
+          </p>
+
+          <a href="#contact">
             <MagicButton
               title="Contact Me"
-              icon={<FaLocationArrow />}
+              icon={<BsArrowRight />}
               position="right"
             />
           </a>
