@@ -6,7 +6,7 @@ const Browser = () => {
       <Safari
         url="github.com"
         className="size-full"
-        src="https://unsplash.com/photos/a-blurry-image-of-a-flower-on-a-purple-background-Wrfm23jdX5s"
+        src="https://drive.google.com/file/d/12yhl8pcQGhON9e8KeqAPBRyvYUIN_3_-/view?usp=sharing"
       />
     </div>
   )
