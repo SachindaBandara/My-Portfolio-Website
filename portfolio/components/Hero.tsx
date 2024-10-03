@@ -60,7 +60,7 @@ const Hero = () => {
             filter={false}
             words={words}
           />
-          
+
           <p className="text-center md:tracking-wider mt-4 mb-10 sm:mb-2 text-sm md:text-lg lg:text-2xl">
             Frontend Developer & UI / UX Engineer
           </p>
