@@ -44,19 +44,19 @@ export function Safari({
           cx="27"
           cy="25"
           r="6"
-          className="fill-[#E5E5E5] dark:fill-[#404040]"
+          className="fill-[#E5E5E5] dark:fill-[#ff0000]"
         />
         <circle
           cx="47"
           cy="25"
           r="6"
-          className="fill-[#E5E5E5] dark:fill-[#404040]"
+          className="fill-[#E5E5E5] dark:fill-[#ffaf03]"
         />
         <circle
           cx="67"
           cy="25"
           r="6"
-          className="fill-[#E5E5E5] dark:fill-[#404040]"
+          className="fill-[#E5E5E5] dark:fill-[#00ff0d]"
         />
         <path
           d="M286 17C286 13.6863 288.686 11 292 11H946C949.314 11 952 13.6863 952 17V35C952 38.3137 949.314 41 946 41H292C288.686 41 286 38.3137 286 35V17Z"
