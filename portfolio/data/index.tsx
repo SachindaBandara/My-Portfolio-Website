@@ -37,7 +37,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Designing seamless, user-centric experiences through innovative development.",
+      title: "Designing user-centric experiences through innovative development.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
