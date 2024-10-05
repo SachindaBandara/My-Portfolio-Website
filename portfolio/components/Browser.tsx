@@ -6,7 +6,7 @@ const Browser = () => {
       <Safari
         url="github.com"
         className="size-full"
-        src="https://drive.google.com/file/d/12yhl8pcQGhON9e8KeqAPBRyvYUIN_3_-/view?usp=sharing"
+        src="../public/githubProfile.PNG"
       />
     </div>
   )
