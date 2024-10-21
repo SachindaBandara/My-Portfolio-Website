@@ -15,14 +15,14 @@ function Home() {
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start start", "end end"]
-  }) 
+  })
 
   return (
-    <main ref={container} className="relative  bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5 ">
+    <main ref={container} className="relative bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5 ">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        <Hero  />
-        <Grid  />
+        <Hero />
+        <Grid />
         <Browser />
         <RecentProjects />
         <Footer />
