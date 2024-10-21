@@ -6,7 +6,7 @@ import { FaHome } from "react-icons/fa";
 import RecentProjects from "../components/RecentProjects";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer";
-import BrowserSafari from "@/components/Browser";
+import Browser from "@/components/Browser";
 
 function Home() {
   return (
@@ -14,8 +14,9 @@ function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero />
-        <BrowserSafari />
+       
         <Grid/>
+        <Browser />
         <RecentProjects />
         <Footer />
       </div>
