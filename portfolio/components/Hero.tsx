@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import ContactButton from "./ui/ContactButton";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useTransform } from "framer-motion";
 import Profile from "../public/profile pic.jpg";
 
 const Hero = () => {
