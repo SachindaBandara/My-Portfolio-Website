@@ -11,11 +11,11 @@ const RecentProjects = () => {
         My{" "}
         <span className="text-purple">Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 mt-2 lg:mt-5 lg:gap-x-24 lg:gap-y-16">
+      <div className="flex flex-wrap items-center justify-center p-4 mt-[-2] lg:mt-5 lg:gap-x-24 lg:gap-y-16">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="w-[80vw] h-[32rem] sm:w-[570px] sm:h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center"
           >
             <PinContainer title={title} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">

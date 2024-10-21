@@ -2,7 +2,6 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import React from "react";
-import { FaHome } from "react-icons/fa";
 import RecentProjects from "../components/RecentProjects";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer";
