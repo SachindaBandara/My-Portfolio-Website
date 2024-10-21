@@ -11,7 +11,7 @@ const RecentProjects = () => {
         My{" "}
         <span className="text-purple">Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 mt-10 md:gap-x-24 md:gap-y-8">
+      <div className="flex flex-wrap items-center justify-center p-4 mt-2 lg:mt-5 md:gap-x-24 md:gap-y-8">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
@@ -45,7 +45,7 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex items-center justify-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-slate-300">
                     Check live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#cbacf9" />
