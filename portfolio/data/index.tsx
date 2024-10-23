@@ -95,11 +95,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Tunes",
+      des: "Tunes is a comprehensive online music platform offering users an interactive experience with features such as an integrated music player, playlists, and album collections",
       img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      iconLists: ["/re.svg", "/express.svg", "/nodejs.svg", "/mongodb.svg", "/tail.svg"],
+      link: "https://github.com/SachindaBandara/Music-website-using-ReactJS-NodeJS-ExpressJS-MongoDB",
     },
   ];
   
