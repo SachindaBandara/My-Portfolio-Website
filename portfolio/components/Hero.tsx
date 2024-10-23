@@ -49,7 +49,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex justify-center relative my-5 z-10">
+      <motion.div
+        className="flex justify-center relative my-5 z-10"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.125,
+        }}>
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="lowercase tracking-widest text-sm text-center text-blue-100 max-w-80">
             @Sachinda Bandara
@@ -83,7 +89,7 @@ const Hero = () => {
             />
           </a> */}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

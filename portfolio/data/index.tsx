@@ -80,7 +80,7 @@ export const navItems = [
     {
       id: 2,
       title: "Learning Management System",
-      des: "Develop a comprehensive website integrated with a Learning Management System (LMS) for R/Pathagama Maha Vidyalaya. ",
+      des: "Develop a comprehensive website integrated with a Learning Management System (LMS) for R/Pathagama Maha Vidyalaya...",
       img: "/p2.svg",
       iconLists: ["/re.svg", "/express.svg", "/nodejs.svg", "/mongodb.svg", "/tail.svg"],
       link: "https://github.com/KCDasanayaka/Learning_Management_System",
