@@ -61,10 +61,10 @@ const Hero = () => {
             words={words}
           />
 
-          <p className="text-center md:tracking-wider mt-4 mb-10 sm:mb-2 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mt-4 mb-6 sm:mb-2 text-sm md:text-lg lg:text-2xl">
             Frontend Developer & UI / UX Engineer
           </p>
-          <p className="text-center md:tracking-wider mt-4 mb-10 sm:mb-2 text-xs md:text-sm lg:text-base text-slate-400">
+          <p className="text-center md:tracking-wider sm:mt-4 mb-10 sm:mb-2 text-xs md:text-sm lg:text-base text-slate-400">
             I'm passionate about building exceptional user experiences by
             weaving together the power of frontend development.
           </p>

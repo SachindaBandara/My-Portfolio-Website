@@ -12,7 +12,7 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw]">
           Ready to elevate  <span className="text-purple">your</span> digital presence to the next level?
         </h1>
-        <p className="text-white-200 my-5 text-center">
+        <p className="text-white-200 my-5 mb-10 sm:mb-0 text-center">
           Connect with me today, and let's explore how I can help turn your goals into reality.
         </p>
         <a href="mailto:jmsachindabandara@gmail.com">
