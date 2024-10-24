@@ -3,10 +3,16 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "@/data";
 import { profile } from "console";
+import { motion, useTransform } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="w-full pb-5 mb-[100px] md:mb-5" id="contact">
+    <motion.footer
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      viewport={{ once: true }}
+      className="w-full pb-5 mb-[100px] md:mb-5" id="contact">
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
@@ -41,7 +47,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 };
 

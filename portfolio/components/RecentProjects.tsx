@@ -3,10 +3,16 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import { motion, useTransform } from "framer-motion";
 
 const RecentProjects = () => {
   return (
-    <div className="py-40" id="projects">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      viewport={{ once: true }} 
+      className="py-40" id="projects">
       <h1 className="heading">
         My{" "}
         <span className="text-purple">Projects</span>
@@ -45,8 +51,8 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex items-center justify-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-slate-300">
-                    Check live Site
+                  <p className="flex lg:text-lg md:text-xs text-sm text-slate-300">
+                    Visit Codespace
                   </p>
                   <FaLocationArrow className="ms-3" color="#cbacf9" />
                 </div>
@@ -55,7 +61,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
