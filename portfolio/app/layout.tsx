@@ -3,12 +3,12 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "./Provider";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sachinda Bandara",
-  description: "Sachinda Bandara personal website",
+  description: "Sachinda Bandara Personal Website",
+
 };
 
 export default function RootLayout({
