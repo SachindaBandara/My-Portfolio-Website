@@ -54,7 +54,7 @@ export const PinContainer = ({
           <motion.div
             className={cn("relative z-50", className)}
             initial={{ scale: 1 }}
-            animate={{ scale: 1 }} 
+            animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
           >
             {children}
