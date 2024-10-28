@@ -12,7 +12,7 @@ import { useScroll } from "framer-motion";
 
 function Home() {
   const container = useRef(null);
-  const { scrollYProgress } = useScroll({
+  const {} = useScroll({
     target: container,
     offset: ["start start", "end end"]
   })

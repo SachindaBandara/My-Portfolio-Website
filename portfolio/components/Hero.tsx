@@ -1,31 +1,15 @@
 "use client";
-
-import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
-//import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import ContactButton from "./ui/ContactButton";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
-import { motion, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import Profile from "../public/profile pic.jpg";
 
 const Hero = () => {
   const words = `Hi, I'm Sachinda Bandara`
   return (
     <div className="pb-20 pt-36">
-      {/* <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="top-10 left-full h-[80vh] w-[50vw]"
-          fill="purple"
-        />
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
-      </div> */}
-
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -71,7 +55,7 @@ const Hero = () => {
             Frontend Developer & UI / UX Engineer
           </p>
           <p className="text-center md:tracking-wider sm:mt-4 mb-10 sm:mb-2 text-xs md:text-sm lg:text-base text-slate-400">
-            I'm passionate about building exceptional user experiences by
+            I&apos;m passionate about building exceptional user experiences by
             weaving together the power of frontend development.
           </p>
           <a href="#contact">

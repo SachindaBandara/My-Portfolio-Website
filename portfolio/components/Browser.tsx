@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import GitHubImage from "../public/githubProfile.png"
-import { motion, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Browser = () => {
   return (

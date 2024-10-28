@@ -3,7 +3,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
-import { motion, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 const RecentProjects = () => {
   return (
