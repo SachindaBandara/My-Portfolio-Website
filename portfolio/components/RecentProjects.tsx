@@ -11,7 +11,7 @@ const RecentProjects = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      viewport={{ once: true }} 
+      viewport={{ once: true }}
       className="py-40" id="projects">
       <h1 className="heading">
         My{" "}
