@@ -27,12 +27,12 @@ export const navItems = [
     // },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "",
+      description: "",
       className: "lg:col-span-2 md:col-span-6 md:row-span-4",
-      imgClassName: "",
+      imgClassName: "w-60 right-4 absolute sm:right-28 lg:right-[-10px] lg:bottom-20 xl:right-12 xl:bottom-20 2xl:bottom-44 md:w-96 ",
       titleClassName: "justify-center",
-      img: "",
+      img: "/grid-2.png",
       spareImg: "",
     },
     // {
