@@ -25,7 +25,7 @@ const Hero = () => {
               alt="Sachinda Bandara"
               width="210"
               height="210"
-              quality="95"
+              quality="100"
               priority={true}
               className="h-38 w-38 rounded-full object-cover"
             />
@@ -42,7 +42,7 @@ const Hero = () => {
         }}>
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="lowercase tracking-widest text-sm text-center text-blue-100 max-w-80">
-            @Sachinda Bandara
+            @SachindaBandara
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
