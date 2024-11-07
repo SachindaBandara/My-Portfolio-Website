@@ -1,4 +1,5 @@
 "use client";
+import { navItems } from "@/data";
 import { cn } from "@/lib/utils";
 // import { BackgroundGradientAnimation } from "./GradientBg";
 import { motion } from "framer-motion";
@@ -87,7 +88,7 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+          <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
         )}
 
         <div

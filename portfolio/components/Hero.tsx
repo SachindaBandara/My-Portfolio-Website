@@ -56,7 +56,7 @@ const Hero = () => {
           </p>
           <p className="text-center md:tracking-wider sm:mt-4 mb-10 sm:mb-2 text-xs md:text-sm lg:text-base text-slate-400">
             I&apos;m passionate about building exceptional user experiences by
-            weaving together the power of frontend development.
+            weaving together the power of frontend development
           </p>
           <a href="#contact">
             <MagicButton
