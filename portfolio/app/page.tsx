@@ -6,7 +6,6 @@ import React, { useRef } from "react";
 import RecentProjects from "../components/RecentProjects";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer";
-import Browser from "@/components/Browser";
 import { useScroll } from "framer-motion";
 
 
@@ -23,7 +22,6 @@ function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <Browser />
         <RecentProjects />
         <Footer />
       </div>
