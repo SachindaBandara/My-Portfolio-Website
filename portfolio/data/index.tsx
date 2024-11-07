@@ -103,7 +103,6 @@ export const navItems = [
     },
   ];
   
-  
   export const socialMedia = [
     {
       id: 1,
