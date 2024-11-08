@@ -43,7 +43,7 @@ export const PinContainer = ({
           perspective: "1000px",
           transform: "rotateX(70deg) translateZ(0deg)",
         }}
-        className="absolute left-1/2 top-1/2 ml-[0.09375rem] mt-4 -translate-x-1/2 -translate-y-1/2"
+        className="absolute left-1/2 top-1/2 ml-[0.09375rem] mt-3  -translate-x-1/2 -translate-y-1/2"
       >
         <motion.div
           style={{

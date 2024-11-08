@@ -24,11 +24,9 @@ const RecentProjects = () => {
             className="w-[80vw] h-[32rem] sm:w-[570px] sm:h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center"
           >
             <PinContainer title={title} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
-                </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+              <div className="relative flex items-center justify-center sm:w-[470px] md:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh]  h-[30vh] mb-10">
+               
+                <img src={img} alt={title} className="sm:w-full sm:h-full relative" />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mb-2">
                 {title}
@@ -52,7 +50,7 @@ const RecentProjects = () => {
                 </div>
                 <div className="flex items-center justify-center">
                   <p className="flex lg:text-lg md:text-xs text-sm text-slate-300">
-                    Visit Codespace
+                    Visit
                   </p>
                   <FaLocationArrow className="ms-3" color="#cbacf9" />
                 </div>
