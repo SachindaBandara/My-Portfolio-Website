@@ -30,9 +30,9 @@ export const navItems = [
       title: "",
       description: "",
       className: "min-h-[40vh] sm:min-h-[60vh] lg:col-span-2 md:col-span-6 md:row-span-4",
-      imgClassName: "w-60 right-4 absolute sm:right-28 lg:right-[-10px] lg:bottom-20 xl:right-12 xl:bottom-20 2xl:bottom-44 md:w-96 ",
+      imgClassName: "w-full h-full",
       titleClassName: "justify-center",
-      img: "",
+      img: "/BentoGrid2.png",
       spareImg: "",
     },
     // {
