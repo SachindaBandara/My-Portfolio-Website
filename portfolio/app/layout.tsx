@@ -8,7 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sachinda Bandara",
   description: "Sachinda Bandara Personal Website",
-
+  icons: {
+    icon: ["/favicon.ico?v=4",],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png"]
+  },
+  manifest: "/site.webmanifest"
 };
 
 export default function RootLayout({
@@ -18,14 +23,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={inter.className}><ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        enableSystem
-        disableTransitionOnChange
-      >
-        {children}
-      </ThemeProvider></body>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {/* Main Content */}
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
