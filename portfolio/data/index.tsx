@@ -17,7 +17,7 @@ export const navItems = [
     },
     // {
     //   id: 2,
-    //   title: "I'm highly adaptable to time zone differences",
+    //   title: "",
     //   description: "",
     //   className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     //   imgClassName: "",
@@ -43,7 +43,7 @@ export const navItems = [
     //   imgClassName: "",
     //   titleClassName: "justify-start",
     //   img: "/grid.svg",
-    //   spareImg: "/b4.svg",
+    //   spareImg: "",
     // },
   
     {

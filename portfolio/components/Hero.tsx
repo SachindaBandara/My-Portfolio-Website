@@ -65,13 +65,6 @@ const Hero = () => {
               position="right"
             />
           </a>
-          {/* <a href="#about">
-            <ContactButton
-              title="Contact Me"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a> */}
         </div>
       </motion.div>
     </div>

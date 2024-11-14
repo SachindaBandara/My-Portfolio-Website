@@ -1,7 +1,5 @@
 "use client";
-import { navItems } from "@/data";
 import { cn } from "@/lib/utils";
-// import { BackgroundGradientAnimation } from "./GradientBg";
 import { motion } from "framer-motion";
 
 export const BentoGrid = ({
